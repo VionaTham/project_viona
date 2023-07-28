@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #000814;
+    --secondary-color: #003049;
+    --tertiary-color: #d62828;
+}
+body {
+    background-color: var(--primary-color);
+}
+.bg-primary {
+    background-color: var(--primary-color);
+}
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+.bg-tertiary {
+    background-color: var(--tertiary-color);
+}
+#card {
+    border-radius: 5%;
+}
+#users {
+    border: 1px solid cyan;
+    border-radius: 10%;
+    padding: 20px;
+}
+#brain {
+    border: 1px solid red;
+    border-radius: 10%;
+    padding: 20px;
+}
+#idea {
+    border: 1px solid yellow;
+    border-radius: 10%;
+    padding: 20px;
+}
+#time {
+    border: 1px solid green;
+    border-radius: 10%;
+    padding: 20px;
+}
+.img1:hover {
+    background-color: rgb(51, 50, 50);
+}
+
+.icon-skill {
+    width: 18%;
+    height: 60px;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-skill:hover {
+    background-color: #d9d9d9;
+  }
+  .edit1{
+      display: flex;
+      align-items: center;
+  }
+.icon-link-skill {
+    background-color: #d9d9d9;
+     padding: 5px 15px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
